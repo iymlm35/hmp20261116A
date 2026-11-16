@@ -1,6 +1,6 @@
 # erp-h 권한 프로그램별 DB 테이블 요약 (백엔드 소스 기준)
 
-> 작성 2026-11-16 · 대상: `erph-role-menu-tree-common-vs-system.md` 「권한」 폴더의 화면 9개
+> 작성 2026-11-16 · 대상: 「권한」 폴더의 화면 9개(메뉴 트리·폴더 키는 `../02_role정의/시스템-공통의권한프로그램비교.md` 3절)
 > 근거 소스: `D:\root\docs\DEV\vsc_workspaces\hmp202061112-hmpcoms\platform-hmp` (hmp-core) · `co_mobileAuthMapp` 은 erp-h 소스(`app/src/main/...`)
 > 방법: 화면 JS(`core/src/main/resources/pages/role/*.js`)가 부르는 API → 컨트롤러 → 서비스 → 리포지토리/엔티티(`@Table`) 순으로 따라갔다. 소스를 읽어 정리한 것이고 **DB 를 조회하거나 실행해 확인하지 않았다.**
 > 소스 버전: erp-h 는 hmp-core **2.2.109**(gitSha `9507f3514`)를 쓴다. platform-hmp HEAD(`58882d8b3`)는 그보다 4커밋 뒤이고, 이 문서가 본 권한 관련 파일(컨트롤러·서비스·엔티티·`pages/role`·`permission`)은 그 사이 변경이 없다.
