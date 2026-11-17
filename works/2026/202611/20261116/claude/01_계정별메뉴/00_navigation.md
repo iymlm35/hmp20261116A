@@ -19,7 +19,8 @@
 | 문서 | 로그인 계정(화면 표시 이름) | 추정 id · role | 상단 탭 | 화면 수 | 업무 탭 등급 1/2/3 |
 |---|---|---|---|---:|---|
 | [erph-menu-erpadmin.md](erph-menu-erpadmin.md) | erpadmin | `erpadmin` · `SYS_ADMIN`+`BIZ_ADMIN`+업무·하자 role 11개 | 공통 · 하자 · 시스템 | 307 | 1 / 0 / 281 |
-| [erph-menu-dev01.md](erph-menu-dev01.md) | 개발자1 (IT팀) | `h.dev01` · `DEVELOPER` | 공통 · 시스템 | 246 | 188 / 0 / 33 |
+| [erph-menu-dev01\[DEVELOPER\].md](erph-menu-dev01%5BDEVELOPER%5D.md) | 개발자1 (IT팀) | `h.dev01` · `DEVELOPER` | 공통 · 시스템 | 246 | 188 / 0 / 33 |
+| [erph-menu-dev01\[BIZ_ADMIN\].md](erph-menu-dev01%5BBIZ_ADMIN%5D.md) | 개발자1 (IT팀) | `h.dev01` · `BIZ_ADMIN` 만 부여 (2026-11-17) | 공통 · 시스템 | 55 (개인 탭 제외) | 0 / 0 / 55 |
 | [erph-menu-csadm.md](erph-menu-csadm.md) | CS팀장 (CS팀) | `h.csadm` · `CS_ADMIN` · `CS_APRV_01` · `CS_COMMON` | 하자 | 86 | 1 / 0 / 60 |
 | [erph-menu-cs01.md](erph-menu-cs01.md) | CS본사담당 (CS팀) | `h.cs01` · `CS_MNG_01` · `CS_COMMON` | 하자 | 84 | 11 / 47 / 1 |
 | [erph-menu-cs02.md](erph-menu-cs02.md) | CS본사담당(산업) (건설현장) | `h.cs02` · `CS_MNG_01` · `CS_COMMON` | 하자 | 84 | 11 / 47 / 1 |
@@ -36,7 +37,7 @@
 flowchart TD
   C["erph-menu-compare<br/>7계정 비교 · 먼저 읽기"]
   E["erph-menu-erpadmin<br/>전체 메뉴 기준"]
-  D["erph-menu-dev01<br/>공통·시스템 조회형"]
+  D["erph-menu-dev01[DEVELOPER]<br/>공통·시스템 조회형"]
   CS["하자 계정 5개<br/>csadm → cs01 · cs02 → site01 · cs03"]
   R["02_role정의<br/>role 설계 · 부여 규모"]
 
@@ -78,7 +79,8 @@ flowchart TD
 | 문서 | 특징 |
 |---|---|
 | [erpadmin](erph-menu-erpadmin.md) | 전체 메뉴 기준. 제목이 「(프로그램 경로 포함)」이고 다른 계정 문서와 달리 계정 이름이 제목에 없다. 가장 길다(724행) |
-| [dev01](erph-menu-dev01.md) | 공통 49 · 시스템 172 · 개인 25. 하자 탭 없음 |
+| [dev01 \[DEVELOPER\]](erph-menu-dev01%5BDEVELOPER%5D.md) | 공통 49 · 시스템 172 · 개인 25. 하자 탭 없음 |
+| [dev01 \[BIZ_ADMIN\]](erph-menu-dev01%5BBIZ_ADMIN%5D.md) | `h.dev01` 에 `BIZ_ADMIN` 만 부여한 경우. 공통 48 · 시스템 7(개발도구 › 테스트) · 개인 탭은 읽지 않음. 전부 등급 3. `DEVELOPER` 문서와의 차이는 이 문서 §3 |
 | [csadm](erph-menu-csadm.md) | 하자 61 — 기준정보 등록 승인(`cs_baseCdAprv`)·공동도급안분(`cs_jonitVenture`) 포함 |
 | [cs01](erph-menu-cs01.md) · [cs02](erph-menu-cs02.md) | 하자 59 — 두 문서 내용이 같다. cs02의 화면 소속은 「건설현장」으로 시험 계정 문서의 로그인 조직(HI1300)과 달라 확인이 필요하다 |
 | [cs03](erph-menu-cs03.md) | 하자 26 — 주로 조회·집계 화면이 빠진다 |

@@ -3,7 +3,7 @@
 - 조회: 2026-11-16 · `http://localhost:8080/` · 화면 우상단 사용자 표시 「CS팀장 (CS팀)」 (login id 는 화면에 안 나와 확인하지 못함 · `TEST-ACCOUNTS-20261112.md` 기준 `h.csadm`(CS팀장) 으로 추정)
 - 방법: Aside 브라우저로 상단 탭을 눌러 `.menu-tree` DOM 을 읽고, 메뉴 API `POST /sys/menu/list` 의 `serviceId` 와 화면 이름·순서를 대조했다.
 - 트리 표기: 화면 이름 뒤에 serviceId, 화면 주소 `/page/<serviceId>`. 폴더는 `이름/`. 화면 주소는 규칙에 따른 것이며 주소창과 직접 대조하지 않았다.
-- 다른 계정 결과: `erph-menu-erpadmin.md` · `erph-menu-dev01.md`
+- 다른 계정 결과: `erph-menu-erpadmin.md` · `erph-menu-dev01[DEVELOPER].md`
 
 | 상단 탭 | 폴더 | 화면 | DOM ↔ API 대조 |
 |---|---:|---:|---|
