@@ -1,0 +1,6 @@
+18:46:51 === verify start ===
+18:46:52 modules: compared=49 ok=49 bad=0
+18:46:52 tables: compared=1418 ok=1415 bad=3
+18:46:52 objects: tables=1418 views=2 procs=1 funcs=46 idx=2087 fks=120 fks_disabled=45 checks=85 defaults=1423 sequences=390 synonyms=3
+18:46:53 identity: total=28 reseeded=0 fixfail=0
+18:46:53 === verify done ===

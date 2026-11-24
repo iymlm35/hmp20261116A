@@ -1,0 +1,90 @@
+BATCH 3 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TCMF_CCNST_SCH_CHG] ADD CONSTRAINT [DF_TCMF_CCNST_SCH_CHG_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 5 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TCMG_APRS] ADD CONSTRAINT [DF_TCMG_APRS_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 7 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TCMG_SIT_APRS] ADD CONSTRAINT [DF_TCMG_SIT_APRS_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 9 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TCMH_AMTPER_PROC_CTL] ADD CONSTRAINT [DF_TCMH_AMTPER_PROC_CTL_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 11 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TCMZ_FCLS] ADD CONSTRAINT [DF_TCMZ_FCLS_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 13 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TCMZ_FCLS_DTL] ADD CONSTRAINT [DF_TCMZ_FCLS_DTL_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 16 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TFID_CLOS_CUST] ADD CONSTRAINT [DF_TFID_CLOS_CUST_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 19 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[THRA_TECHBASE] ADD CONSTRAINT [DF__THRA_TECH__ins_d__41703E86] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 21 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TLAB_MONMAGAM] ADD CONSTRAINT [DF__TLAB_MONM__ETC_A__580A5672] DEFAULT  FOR [ETC_AMT];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 22 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TLAB_MONMAGAM] ADD CONSTRAINT [DF__TLAB_MONM__ins_d__58FE7AAB] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 25 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TMMB_EBGT_DTL] ADD CONSTRAINT [DF_TMMB_EBGT_DTL_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 28 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TMMB_REQ_CTP] ADD CONSTRAINT [DF_TMMB_REQ_CTP_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 31 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TMMB_REQ_ITM] ADD CONSTRAINT [DF_TMMB_REQ_ITM_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 34 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TMMC_CONT_CTP] ADD CONSTRAINT [DF_TMMC_CONT_CTP_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 37 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TMMC_CONT_ITM] ADD CONSTRAINT [DF_TMMC_CONT_ITM_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 40 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TMMC_CONT_PREPAY] ADD CONSTRAINT [DF_TMMC_CONT_PREPAY_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 43 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TMMD_EVAL_DDCT] ADD CONSTRAINT [DF__TMMD_EVAL__ins_d__2B4BF33D] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 46 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TMMD_GI_FCLS] ADD CONSTRAINT [DF_TMMD_GI_FCLS_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 49 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TMMD_GO_ITM] ADD CONSTRAINT [DF_TMMD_GO_ITM_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 52 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TMMZ_ITM] ADD CONSTRAINT [DF_TMMZ_ITM_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 55 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TSMB_BD_VNDR] ADD CONSTRAINT [DF__TSMB_BD_V__ins_d__2A22C4DA] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 58 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TSMD_EVAL_DDCT] ADD CONSTRAINT [DF_TSMD_EVAL_DDCT_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 61 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TSMD_EVAL_DTL] ADD CONSTRAINT [DF_TSMD_EVAL_DTL_ins_datetime] DEFAULT  FOR [ins_datetime];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 64 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TSOC_JOINT_INFO] ADD CONSTRAINT [DF__TSOC_JOIN__LM_YN__721E62D9] DEFAULT  FOR [LM_YN];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 65 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TSOC_JOINT_INFO] ADD CONSTRAINT [DF__TSOC_JOIN__SKAT___73128712] DEFAULT  FOR [SKAT_RT];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 66 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TSOC_JOINT_INFO] ADD CONSTRAINT [DF__TSOC_JOIN__UNTK___7406AB4B] DEFAULT  FOR [UNTK_AMT];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 67 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TSOC_JOINT_INFO] ADD CONSTRAINT [DF__TSOC_JOIN__SPLPR__74FACF84] DEFAULT  FOR [SPLPRC_AMT];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 68 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TSOC_JOINT_INFO] ADD CONSTRAINT [DF__TSOC_JOINT___VAT__75EEF3BD] DEFAULT  FOR [VAT];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 69 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TSOC_JOINT_INFO] ADD CONSTRAINT [DF__TSOC_JOIN__TXFRE__76E317F6] DEFAULT  FOR [TXFRE_AMT];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+
+BATCH 70 FAIL after 3 attempts: ALTER TABLE [VPLUS40].[TSOC_JOINT_INFO] ADD CONSTRAINT [DF__TSOC_JOIN__INS_D__77D73C2F] DEFAULT  FOR [INS_DATETIME];
+  ERROR: "ExecuteNonQuery"을(를) "0"개의 인수와 함께 호출하는 동안 예외가 발생함: "키워드 'FOR' 근처의 구문이 잘못되었습니다."
+

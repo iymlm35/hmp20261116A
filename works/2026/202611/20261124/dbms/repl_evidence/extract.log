@@ -1,0 +1,52 @@
+18:13:16 === extraction start ===
+18:13:37 connected: 192.168.1.170,1434 db=ERP
+18:13:38 schemas scripted: 2 (owners: hmp)
+18:13:38 sequences scripted: 390
+18:15:15 scripting 1418 tables...
+18:16:16   tables scripted: 100 / 1418
+18:17:11   tables scripted: 200 / 1418
+18:18:30   tables scripted: 300 / 1418
+18:19:18   tables scripted: 400 / 1418
+18:20:01   tables scripted: 500 / 1418
+18:20:52   tables scripted: 600 / 1418
+18:21:29   tables scripted: 700 / 1418
+18:22:05   tables scripted: 800 / 1418
+18:22:44   tables scripted: 900 / 1418
+18:23:39   tables scripted: 1000 / 1418
+18:24:24   tables scripted: 1100 / 1418
+18:25:02   tables scripted: 1200 / 1418
+18:26:33   tables scripted: 1300 / 1418
+18:27:27   tables scripted: 1400 / 1418
+18:27:35 tables done: 1418 scripted, 23 failed
+18:27:35 FKs scripted: 120
+18:27:36 modules: scriptable=49 encrypted=116
+18:27:36 synonyms scripted: 3
+18:27:36 table list: 1418 tables, total rows = 6144411
+18:27:36 === extraction complete ===
+18:29:32 === fix-extract start ===
+18:29:32 schemas regenerated: 3 schemas (HMP,VPLUS40,hmp_ai)
+18:29:32 hand-scripting 23 tables
+18:29:33   hand-scripted [VPLUS40].[TCMF_CCNST_SCH_CHG] (cols=30 pk/uq=1 idx=0)
+18:29:33   hand-scripted [VPLUS40].[TCMG_APRS] (cols=24 pk/uq=0 idx=0)
+18:29:33   hand-scripted [VPLUS40].[TCMG_SIT_APRS] (cols=25 pk/uq=0 idx=0)
+18:29:33   hand-scripted [VPLUS40].[TCMH_AMTPER_PROC_CTL] (cols=19 pk/uq=0 idx=0)
+18:29:33   hand-scripted [VPLUS40].[TCMZ_FCLS] (cols=33 pk/uq=0 idx=0)
+18:29:33   hand-scripted [VPLUS40].[TCMZ_FCLS_DTL] (cols=28 pk/uq=0 idx=0)
+18:29:34   hand-scripted [VPLUS40].[TFID_CLOS_CUST] (cols=36 pk/uq=1 idx=0)
+18:29:34   hand-scripted [VPLUS40].[THRA_TECHBASE] (cols=47 pk/uq=1 idx=0)
+18:29:34   hand-scripted [VPLUS40].[TLAB_MONMAGAM] (cols=73 pk/uq=0 idx=0)
+18:29:34   hand-scripted [VPLUS40].[TMMB_EBGT_DTL] (cols=39 pk/uq=1 idx=0)
+18:29:34   hand-scripted [VPLUS40].[TMMB_REQ_CTP] (cols=44 pk/uq=1 idx=0)
+18:29:34   hand-scripted [VPLUS40].[TMMB_REQ_ITM] (cols=37 pk/uq=1 idx=0)
+18:29:34   hand-scripted [VPLUS40].[TMMC_CONT_CTP] (cols=39 pk/uq=1 idx=0)
+18:29:34   hand-scripted [VPLUS40].[TMMC_CONT_ITM] (cols=38 pk/uq=1 idx=0)
+18:29:35   hand-scripted [VPLUS40].[TMMC_CONT_PREPAY] (cols=39 pk/uq=1 idx=0)
+18:29:35   hand-scripted [VPLUS40].[TMMD_EVAL_DDCT] (cols=26 pk/uq=1 idx=0)
+18:29:35   hand-scripted [VPLUS40].[TMMD_GI_FCLS] (cols=27 pk/uq=1 idx=0)
+18:29:35   hand-scripted [VPLUS40].[TMMD_GO_ITM] (cols=36 pk/uq=1 idx=0)
+18:29:35   hand-scripted [VPLUS40].[TMMZ_ITM] (cols=37 pk/uq=1 idx=0)
+18:29:35   hand-scripted [VPLUS40].[TSMB_BD_VNDR] (cols=48 pk/uq=1 idx=0)
+18:29:35   hand-scripted [VPLUS40].[TSMD_EVAL_DDCT] (cols=40 pk/uq=1 idx=0)
+18:29:35   hand-scripted [VPLUS40].[TSMD_EVAL_DTL] (cols=54 pk/uq=1 idx=0)
+18:29:36   hand-scripted [VPLUS40].[TSOC_JOINT_INFO] (cols=26 pk/uq=1 idx=0)
+18:29:36 === fix-extract complete ===
