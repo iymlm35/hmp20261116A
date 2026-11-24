@@ -1,0 +1,1 @@
+"D:\jdk\jdk-21\bin\java.exe" -jar app.jar --server.port=9090
